@@ -41,12 +41,15 @@ public class LoginPageTest extends BaseTest {
 		Assert.assertTrue(loginPage.isForgotPwdlinkExist());
 	}
 
-	@Description("login page register link test....")
-	@Severity(SeverityLevel.CRITICAL)
-	@Test
-	public void registerLinkTest() {
-		Assert.assertTrue(loginPage.isRegisterlinkExist());
-	}
+	
+  @Description("login page register link test....")
+	  
+	  @Severity(SeverityLevel.CRITICAL)
+	  
+	  @Test public void registerLinkTest() {
+	  Assert.assertTrue(loginPage.isRegisterlinkExist()); 
+	  }
+	 
 
 	@Description("login page test....")
 	@Severity(SeverityLevel.BLOCKER)
